@@ -31,6 +31,10 @@ function App() {
     };
     setListaOrcamento([...listaOrcamento, novoOrcamento]);
 
+
+    setDescricao("");
+    setQuantidade("");
+    setValorUnitario("");
     localStorage.setItem("LISTA_ORCAMENTO", JSON.stringify(listaOrcamento));
   };
 
